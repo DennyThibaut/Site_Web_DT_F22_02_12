@@ -1,0 +1,55 @@
+h1
+{
+border: ;
+border-radius: 2px 2px 2px 2px ;
+color: black;
+font-size: 30px;
+font-family: georgia, georgia, serif;
+font-style: oblique;
+text-decoration: blink;
+font-weight: bold;
+text-shadow: black 10px 10px 20px;
+text-align:center
+}
+#test
+{
+border: ;
+border-radius: 2px 2px 2px 2px ;
+color: black;
+font-size: 20px;
+font-family: georgia, georgia, serif;
+font-style: oblique;
+text-decoration: blink;
+font-weight: bold;
+text-shadow: black 10px 10px 20px;
+}
+#test2
+{
+border: ;
+border-radius: 2px 2px 2px 2px ;
+color: black;
+font-size: 15px;
+font-family: georgia, georgia, serif;
+font-style: oblique;
+text-decoration: blink;
+font-weight: bold;
+text-shadow: black 10px 10px 20px;
+}
+#test3
+{
+border: ;
+border-radius: 2px 2px 2px 2px ;
+color: black;
+font-size: 17px;
+font-family: georgia, georgia, serif;
+font-style: oblique;
+text-decoration: blink;
+font-weight: bold;
+text-shadow: black 10px 10px 20px;
+}
+td, th{
+    border: 1px solid black;
+}
+table{
+    border-collapse: collapse;
+}

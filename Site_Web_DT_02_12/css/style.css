@@ -1,0 +1,277 @@
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+ol,ul{list-style:none;margin:0px;padding:0px;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+a{text-decoration:none;}
+.txt-rt{text-align:right;}
+.txt-lt{text-align:left;}
+.txt-center{text-align:center;}
+.float-rt{float:right;}
+.float-lt{float:left;}
+.clear{clear:both;}
+.pos-relative{position:relative;}
+.pos-absolute{position:absolute;}
+.vertical-base{	vertical-align:baseline;}
+.vertical-top{	vertical-align:top;}
+nav.vertical ul li{	display:block;}
+nav.horizontal ul li{	display: inline-block;}
+img{max-width:100%;}
+
+body{
+	background:url(../images/bg.jpg)  no-repeat center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+ 	background-size: cover;
+	font-family: 'Raleway', sans-serif;
+}
+.main {
+	text-align: center;
+	margin-top:2% ;
+	margin-bottom:3%;
+}
+
+.content {
+	width:80%;
+	margin:0 auto;
+}
+.Login {
+	background: #E2E2E2;
+	border: 1px solid #828282;
+	width: 43%;
+	margin: 8% auto 0%;
+	border-radius:7px;
+	-webkit-border-radius:7px;
+	-moz-border-radius:7px;
+	-o-border-radius:7px;
+	box-shadow: -1px 3px 19px 0px rgba(29, 27, 27, 0.61);
+	-webkit-box-shadow: -1px 3px 19px 0px rgba(29, 27, 27, 0.61);
+	-o-box-shadow: -1px 3px 19px 0px rgba(29, 27, 27, 0.61);
+	-moz-box-shadow: -1px 3px 19px 0px rgba(29, 27, 27, 0.61);
+	text-align: center;
+	
+}
+.Login form {
+	padding:3% 18%;
+}
+.Login-head {
+	padding: 1.5em 0em;
+	text-align: center; 
+}
+.login-head h1{
+	font-family: 'Pacifico', cursive;
+	color: #222;
+	font-size: 2.5em;
+	font-weight: 600;
+	margin-bottom:1em;
+	font-style: italic;
+	text-align: center;
+	letter-spacing: 2px;
+}
+.Login-head h3{
+	color: #498900;
+	font-size: 1.95em;
+	font-weight: 700;
+	font-family: 'Raleway', sans-serif;
+	border-bottom: 1.8px ridge #B8B8B9;
+	margin:0 3em;
+	padding-bottom:0.8em;
+	                             
+}
+ .Login h4 {
+	float: left;
+	font-size: 16px;
+	font-weight:600;
+	color: #7E7B7B;
+	margin: 20px 0px;
+	font-family: 'Raleway', sans-serif;
+}
+	
+.Regisration {
+	width: 34%;
+	text-align:center;
+	margin: 0 auto;
+	background:#20252D;
+	border-radius:7px;
+	-webkit-border-radius:7px;
+	-moz-border-radius:7px;
+	-o-border-radius:7px;
+	padding-bottom: 3px;
+}
+.Regisration-head {
+	 border-top-left-radius:7px;
+	-webkit-border-top-left-radius:7px;
+	-moz-border-top-left-radius:7px;
+	-o-border-top-left-radius:7px;
+	border-top-right-radius:7px;
+	-webkit-border-top-right-radius:7px;
+	-moz-border-top-right-radius:7px;
+	-o-border-top-right-radius:7px;
+	text-align: center;
+	padding:1.6em 0;
+	border: 1px solid rgba(0, 0, 0, 0.37);
+	box-shadow: 0px 4px 10px 0px rgba(1, 3, 12, 0.33);
+	-webkit-box-shadow: 0px 4px 10px 0px rgba(1, 3, 12, 0.33);
+	-o-	box-shadow: 0px 4px 10px 0px rgba(1, 3, 12, 0.33);
+	-moz-box-shadow: 0px 4px 10px 0px rgba(1, 3, 12, 0.33);
+	position: relative;
+}
+.Regisration-head span{
+	background: url(../images/user-icon.png) no-repeat -5px -6px;
+	position: absolute;
+	top: 28%;
+	left: 25%;
+	height: 40px;
+	width: 40px;
+}
+.Regisration-head h2{
+	color: #0C0D10;
+	font-size: 33px;
+	font-weight: 700;
+	margin-left:20px;
+	font-family: 'Raleway', sans-serif;
+}
+.Regisration form {
+	text-align: center;
+	margin:5% 0%;
+	position:relative;
+		
+}
+.Regisration form input[type="text"],.Regisration form input[type="password"],.Regisration form input[type="number"],.Regisration form input[type="email"],.Regisration form input[type="date"],.Regisration form input[type="submit"]{
+	font-size: 15px;
+	outline: none;
+	font-weight: 600;
+	color:#8D8E8F;
+	padding: 12px 12px;
+	width:76%;
+	border-top:1px solid #090B0D;
+	border-right:2px solid #424549;
+	border-bottom:2px solid #424549;
+	border-left:1px solid #090B0D;
+	margin: 10px 1em;
+	border-radius:7px;
+	-webkit-border-radius:7px;
+	-moz-border-radius:7px;
+	-o-border-radius:7px;
+	background: #13161B;
+	box-shadow: inset 0px 3px 0px 0px rgba(5, 5, 5, 0.15);
+	-webkit-box-shadow: inset 0px 3px 0px 0px rgba(5, 5, 5, 0.15);
+	-o-box-shadow: inset 0px 3px 0px 0px rgba(5, 5, 5, 0.15);
+	-moz-box-shadow: inset 0px 3px 0px 0px rgba(5, 5, 5, 0.15);
+	font-family: 'Raleway', sans-serif;
+
+}
+@media (max-width:1440px){
+	form span {
+	top: -4%;
+	right: -12%;
+	}
+}
+@media (max-width:1280px){
+	.Regisration {
+	width: 38%;
+	}
+	.checkbox-grid .radio i{		
+	left: 108px;
+	}
+	.checkbox-grid .radio {
+	padding-left: 43%;
+	}
+	form span {
+	top: -4%;
+	right: -12%;
+	}
+	.Login {
+	width: 48%;
+	}
+}
+@media (max-width:1024px){
+	.Regisration {
+		width:50%;	
+	}
+	.Login {
+	width: 62%;
+	}
+	form span {
+	top: -4%;
+	right: -12%;
+	}
+	.checkbox-grid .radio i {
+		top: 0px;
+		left: 139px;
+	}
+}
+@media (max-width:768px){
+	.Regisration {
+		width: 59%;
+	}
+	.Login {
+	width: 77%;
+	}
+	form span {
+	top: -4%;
+right: -12%;
+	}
+	.checkbox-grid .radio i {
+		top: 0px;
+		left: 127px;
+	}
+}
+@media (max-width:640px){
+	.Regisration {
+	width:70%;
+	}
+	.Login {
+	width:83%;
+	}
+	form span {
+	top: -4%;
+right: -12%;
+	}
+	.checkbox-grid .radio i {
+		top: 0px;
+		left: 112px;
+	}
+}
+@media (max-width:480px){
+	.Regisration {
+	width:89%;
+	}
+	.Login {
+	width:83%;
+	}
+	form span {
+	top: 35%;
+	right: -19%;
+	}
+	.checkbox-grid .radio i {
+		top: 0px;
+		left: 33px;
+	}
+	.Login form input[type="text"], .Login form input[type="password"] {
+	padding: 11px 11px;
+	width: 86%;
+	}
+	.Login h4 {
+	float:left;
+	margin: 9px 0px;
+	}
+	.submit input[type="submit"] {
+		width: 47%;
+	}
+	.submit-button input[type="submit"] {
+	width:48%;
+	}
+	.submit-button input[type="submit"] {
+	width:70%;
+	}
+	.checkbox-grid .radio {
+		padding-left: 28%;
+	}
+}
+#Cacher{
+   display:none;
+}

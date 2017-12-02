@@ -1,0 +1,56 @@
+table{
+    border-collapse: collapse;
+    width:100%;
+}
+td, th{
+    border: 1px solid black;
+}
+	table {
+	  border-spacing: 1;
+	  border-collapse: collapse;
+	  background: white;
+	  border-radius: 6px;
+	  overflow: hidden;
+	  max-width: 800px;
+	  width: 100%;
+	  margin: 0 auto;
+	  position: relative;
+	}
+	table td, table th {
+	  padding-left: 8px;
+	}
+	table thead tr {
+	  height: 60px;
+	  background: #FFED86;
+	  font-size: 16px;
+	}
+	table tbody tr {
+	  height: 48px;
+	  border-bottom: 1px solid #E3F1D5;
+	}
+
+
+body {
+  font: 400 14px 'Calibri','Arial';
+  padding: 20px;
+}
+
+blockquote {
+  color: white;
+  text-align: center;
+}
+/* ===== Resets and Housekeeping ===== */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background: #eeebe7;
+  padding: 100px 20px;
+  text-align: center;
+}
